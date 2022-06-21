@@ -62,7 +62,7 @@ if [ $BRANCH == 'master' ]; then
   echo -e "\toption maxfreq0 '1512000'\n" >> $config_file_cpufreq
 
   # fix fan control
-  sed -i 's/pwmchip1/pwmchip0/' target/linux/rockchip/armv8/base-files/usr/bin/fa-fancontrol.sh target/linux/rockchip/armv8/base-files/usr/bin/fa-fancontrol-direct.sh
+  # sed -i 's/pwmchip1/pwmchip0/' target/linux/rockchip/armv8/base-files/usr/bin/fa-fancontrol.sh target/linux/rockchip/armv8/base-files/usr/bin/fa-fancontrol-direct.sh
 
 fi
 

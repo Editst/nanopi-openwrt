@@ -52,6 +52,8 @@ merge_package https://github.com/jerrykuku/lua-maxminddb
 merge_package https://github.com/jerrykuku/luci-app-vssr
 merge_package https://github.com/kongfl888/luci-app-adguardhome
 merge_package https://github.com/nickilchen/luci-app-socat
+merge_package https://github.com/ysc3839/openwrt-minieap
+merge_package https://github.com/BoringCat/luci-app-minieap
 drop_package luci-app-cd8021x
 drop_package luci-app-cifs
 drop_package verysync
